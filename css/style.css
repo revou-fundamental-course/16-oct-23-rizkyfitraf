@@ -1,9 +1,9 @@
-.header {   
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0em 2em;
-    border-bottom: 1px solid darkslategray;
+    padding: 1em 1em;
+    border-bottom: 1px solid black;
 }
 
 .nav-logo img {
@@ -27,47 +27,93 @@
 .nav-item:hover {
     background: lightgray;
 }
+
 .greetings {
     padding-top: 2em;
     padding-left: 5em;
 }
 
-.banner {
-    border-bottom: 1px solid black;
-    background-image: url('../pict/langit.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
+.greetings h1 {
+    font-size: 36px;
+    color: black;
 }
 
-.headquarter {
-    padding: 3em;
+.greetings p {
+    font-size: 18px;
+    color: black;
+}
+
+.banner img {
+    width: 100%;
+    height: 600px;
 }
 
 .circle {
     height: 150px;
     width: 150px;
+    background-color: blueviolet;
     border: 1px solid black;
     border-radius: 50%;
 }
 
+.label {
+    text-align: center;
+    margin-top: 160px;
+    font-weight: bold;
+}
+
+.headquarter {
+    padding: 0em;
+}
+
 .hq-items {
-    padding: 2em 0em;
+    padding: 2em 2em;
     display: flex;
     justify-content: space-around;
+    border-bottom: 1px solid black;
 }
 
-.Jabansu {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-bottom: 1px solid darkslategray;
-    
+.footer-text {
+    font-size: small;
+    color: gray;
 }
 
-.form-right {
+.form {
     display: flex;
-    justify-content: space-evenly;
+    border-top: 1px solid black;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid gray;
+    margin-bottom: 1px solid black;
+}
+
+.table1 td {
+    padding: 5px;
+}
+
+.table1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.table2 {
+    float: right;
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 4em;
+    margin-right: 15em;
+}
+
+.pesan {
+    width: 300px;
+    height: 100px;
+    border: 1px solid #d9d2d2;
+    border-radius: 3px;
+    padding: 5px;
 }
 
 .footer-text {

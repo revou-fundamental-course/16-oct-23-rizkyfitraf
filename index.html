@@ -6,6 +6,7 @@
     <title>My Page</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <header class="header">
         <div class="nav-logo">
@@ -18,84 +19,75 @@
             <a href="#message-us" class="nav-item">Message Us</a>
         </nav>
     </header>
-    <section class="banner">
+
+    <section>
         <div class="greetings">
-            <h1>Hi my name is Rizky</h1>
-            <p>Ini adalah latihan website pertamaku </p>
+            <h1>Perkenalkan, nama saya Rizky Fitra Firdaus</h1>
+            <h2>Ini adalah latihan website pertamaku</h2>
         </div>
     </section>
-    <script src="./js/script.js"></script>
+    <section class="banner">
+        <div class="slide"><img src="./pict/langit1.jpg" alt="gambar 1"></div>
+    </section>
     <section class="headquarter">
         <h1> Our Headquarter</h1>
         <div class="hq-items">
-             <div class="circle"></div>
-             <div class="circle"></div>
-             <div class="circle"></div>
+            <div class="circle">
+                <div class="label">Jakarta</div>
+            </div>
+            <div class="circle">
+                <div class="label">Bandung</div>
+            </div>
+            <div class="circle">
+                <div class="label">Surabaya</div>
+            </div>
         </div>
-        <nav class="Jabansu">
-            <a class="Jabansu-item">Jakarta</a>
-            <a class="Jabansu-item">Bandung</a>
-            <a class="Jabansu-item">Surabaya</a>
-        </nav>
     </section>
-    <section id="message-us" class="form">
-        <div class="form-left"></div>
-            <form>
-                <table>
+    <section id="Message-Us" class="form">
+        <div class="form-left">
+            <table class="table">
+                <tr>
                     <td>Nama</td>
                     <td>:</td>
-                    <td>
-                        <input id="nama" name="nama" type="text" placeholder="=Nama">   
-                    </td>
-                </table>
-            </form>
-            <form>
-                <table>
-                    <td>Tanggal lahir</td>
+                    <td><input id="nama" placeholder="nama" type="text"></input></td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir</td>
                     <td>:</td>
-                    <td>
-                        <input id="nama" name="nama" type="text" placeholder="=Tanggal lahir">   
-                    </td>
-                </table>
-            </form>
-            <form>
-                <table>
-                    <td>Jenis kelamin</td>
-                    <td>:</td>
-                    <td>
-                        <input id="nama" name="nama" type="text" placeholder="=Jenis kelamin">   
-                    </td>
-                </table>
-            </form>
-            <form>
-                <table>
+                    <td><input id="tgl-lahir" placeholder="tgllahir" type="date"></input></td>
+                </tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td>
+                    <div class=="radio-btn">
+                    <input type="radio" name="gender" id="male" value="laki-laki">
+                    <label for="male">laki-laki</label>
+                    <input type="radio" name="gender" id="female" value="perempuan">
+                    <label for="male">perempuan</label>
+                    </div>
+                </td>
+                <tr>
                     <td>Pesan</td>
                     <td>:</td>
-                    <td>
-                        <input id="nama" name="nama" type="text" placeholder="=Pesan">   
-                    </td>
-                </table>
-            </form>
-            <button id="submit">Submit</button>
-            <p id="error-name"></p>
-        </div>
+                    <td><input id="pesan" class="pesan" type="text" placeholder="Masukkan Pesan disini"></input></td>
+                </tr>
+                <td>
+                    <button>Submit</button>
+                </td>
+            </table>
+            </div>
         <div class="form-right">
-            <form>
-                <textarea name="text" id="text" cols="70" rows="10">
-Qurrent Time : Thurs Oct 26 2023 11:32 
-Nama : Rizky Fitra Firdaus
-Tanggal Lahir : 21 Januari 1999
-Jenis Kelamin : Laki-laki
-Pesan : Sedang Belajar buat Website 
-                </textarea><br><br>
-            </form>
-        </div>
+            <table id="table2" class="table2">
+                <p id="data" class="data"></p>
+            </table>
+        <div>
     </section>
     <footer class="footer">
         <center>
-             <p class="footer-text">made by Rizky</p>
+             <p class="footer-text">made by Rizky Fitra Firdaus</p>
         </center>
     </footer>
+    <p>Note : maaf jsnya ngga keburu ka ;(</p>
     <script src="./js/script.js"></script>
 </body>
 </html>
