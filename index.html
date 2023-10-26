@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="nav-logo">
+            <img src="./pict/revou-logo.jpg" alt="logo-revou">
+        </div>
+        <nav class="nav">
+            <a class="nav-item">Home</a>
+            <a class="nav-item">Our Profile</a>
+            <a class="nav-item">Portfolio</a>
+            <a href="#message-us" class="nav-item">Message Us</a>
+        </nav>
+    </header>
+
+    <section>
+        <div class="greetings">
+            <h1>Perkenalkan, nama saya Rizky Fitra Firdaus</h1>
+            <h2>Ini adalah latihan website pertamaku</h2>
+        </div>
+    </section>
+    <section class="banner">
+        <div class="slide"><img src="./pict/langit1.jpg" alt="gambar 1"></div>
+    </section>
+    <section class="headquarter">
+        <h1> Our Headquarter</h1>
+        <div class="hq-items">
+            <div class="circle">
+                <div class="label">Jakarta</div>
+            </div>
+            <div class="circle">
+                <div class="label">Bandung</div>
+            </div>
+            <div class="circle">
+                <div class="label">Surabaya</div>
+            </div>
+        </div>
+    </section>
+    <section id="Message-Us" class="form">
+        <div class="form-left">
+            <table class="table">
+                <tr>
+                    <td>Nama</td>
+                    <td>:</td>
+                    <td><input id="nama" placeholder="nama" type="text"></input></td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir</td>
+                    <td>:</td>
+                    <td><input id="tgl-lahir" placeholder="tgllahir" type="date"></input></td>
+                </tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td>
+                    <div class=="radio-btn">
+                    <input type="radio" name="gender" id="male" value="laki-laki">
+                    <label for="male">laki-laki</label>
+                    <input type="radio" name="gender" id="female" value="perempuan">
+                    <label for="male">perempuan</label>
+                    </div>
+                </td>
+                <tr>
+                    <td>Pesan</td>
+                    <td>:</td>
+                    <td><input id="pesan" class="pesan" type="text" placeholder="Masukkan Pesan disini"></input></td>
+                </tr>
+                <td>
+                    <button>Submit</button>
+                </td>
+            </table>
+            </div>
+        <div class="form-right">
+            <table id="table2" class="table2">
+                <p id="data" class="data"></p>
+            </table>
+        <div>
+    </section>
+    <footer class="footer">
+        <center>
+             <p class="footer-text">made by Rizky Fitra Firdaus</p>
+        </center>
+    </footer>
+    <p>Note : maaf jsnya ngga keburu ka ;(</p>
+    <script src="./js/script.js"></script>
+</body>
+</html>
