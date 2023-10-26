@@ -25,13 +25,18 @@
         </div>
     </section>
     <script src="./js/script.js"></script>
-    <section class="headquarters">
-        <h1> Our headquarters</h1>
+    <section class="headquarter">
+        <h1> Our Headquarter</h1>
         <div class="hq-items">
              <div class="circle"></div>
              <div class="circle"></div>
              <div class="circle"></div>
         </div>
+        <nav class="Jabansu">
+            <a class="Jabansu-item">Jakarta</a>
+            <a class="Jabansu-item">Bandung</a>
+            <a class="Jabansu-item">Surabaya</a>
+        </nav>
     </section>
     <section id="message-us" class="form">
         <div class="form-left"></div>
@@ -40,16 +45,57 @@
                     <td>Nama</td>
                     <td>:</td>
                     <td>
-                        <input id="nama" name="nama" type="text" placeholder="=name">   
+                        <input id="nama" name="nama" type="text" placeholder="=Nama">   
                     </td>
                 </table>
             </form>
-        <div class="fprm-right"></div>
+            <form>
+                <table>
+                    <td>Tanggal lahir</td>
+                    <td>:</td>
+                    <td>
+                        <input id="nama" name="nama" type="text" placeholder="=Tanggal lahir">   
+                    </td>
+                </table>
+            </form>
+            <form>
+                <table>
+                    <td>Jenis kelamin</td>
+                    <td>:</td>
+                    <td>
+                        <input id="nama" name="nama" type="text" placeholder="=Jenis kelamin">   
+                    </td>
+                </table>
+            </form>
+            <form>
+                <table>
+                    <td>Pesan</td>
+                    <td>:</td>
+                    <td>
+                        <input id="nama" name="nama" type="text" placeholder="=Pesan">   
+                    </td>
+                </table>
+            </form>
+            <button id="submit">Submit</button>
+            <p id="error-name"></p>
+        </div>
+        <div class="form-right">
+            <form>
+                <textarea name="text" id="text" cols="70" rows="10">
+Qurrent Time : Thurs Oct 26 2023 11:32 
+Nama : Rizky Fitra Firdaus
+Tanggal Lahir : 21 Januari 1999
+Jenis Kelamin : Laki-laki
+Pesan : Sedang Belajar buat Website 
+                </textarea><br><br>
+            </form>
+        </div>
     </section>
     <footer class="footer">
         <center>
              <p class="footer-text">made by Rizky</p>
         </center>
     </footer>
+    <script src="./js/script.js"></script>
 </body>
 </html>

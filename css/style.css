@@ -40,7 +40,7 @@
     height: 400px;
 }
 
-.headquarters {
+.headquarter {
     padding: 3em;
 }
 
@@ -52,12 +52,25 @@
 }
 
 .hq-items {
-    padding: 2em 5em;
+    padding: 2em 0em;
     display: flex;
     justify-content: space-around;
 }
 
+.Jabansu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid darkslategray;
+    
+}
+
+.form-right {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .footer-text {
     color: gray;
-     font-size: small;
+    font-size: small;
 }
